@@ -20,7 +20,7 @@ export FLOW_PRIVATE_KEY=xxxxxxxxxxxx
 - hex에는 '$'가 없기 때문에 인코딩 에러
 
 ### 1.3. 해결
-1.31. ``flow.json`` 에서 환경변수 이용하지 말고, 주소/개인키 직접 입력
+#### 1.31. ``flow.json`` 에서 환경변수 이용하지 말고, 주소/개인키 직접 입력
 - 변경 전
 ```
 "testnet-account": {
@@ -35,13 +35,13 @@ export FLOW_PRIVATE_KEY=xxxxxxxxxxxx
       "keys": "YOUR FLOW_PRIVATE_KEY"
 ```
 
-1.32. CLI 업데이트
+#### 1.32. CLI 업데이트
 - ``flow version`` 확인
 - [재설치](https://docs.onflow.org/flow-cli/install/) 
 
 
 ### 1.4. 분석
-1.41. tutorial이 업데이트되기 전에는 ``.env``에 주소/개인키 직접 입력
+#### 1.41. tutorial이 업데이트되기 전에는 ``.env``에 주소/개인키 직접 입력
 
 ```
 // .env
@@ -61,7 +61,7 @@ FUNGIBLE_TOKEN_ADDRESS=9a0766d93b6608b7
 NON_FUNGIBLE_TOKEN_ADDRESS=631e88ae7f1d7c20
 ```
 
-1.42. Flow CLI v0.15.0 업데이트
+#### 1.42. Flow CLI v0.15.0 업데이트
 - flow/keys/decode/decode.go [추가](https://github.com/onflow/flow-cli/commit/8cb55b29ecbf06932464b52fea2123ea8339561f)
 - 주소/개인키는 환경변수로 ``export``해서 ``flow.json``에서 디코딩
 ```go
