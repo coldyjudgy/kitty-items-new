@@ -41,7 +41,7 @@ export FLOW_PRIVATE_KEY=xxxxxxxxxxxx
 
 
 ### 1.4. 분석
-#### 1.41. tutorial이 업데이트되기 전에는 ``.env``에 주소/개인키 직접 입력
+#### 1.41. tutorial이 [업데이트되기 전](https://github.com/kwklly/kitty-items)에는 ``.env``에 주소/개인키 직접 입력
 
 ```
 // .env
