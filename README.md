@@ -13,7 +13,7 @@ flow project deploy --network=testnet
 export FLOW_ADDRESS=0xabcdef12345689
 export FLOW_PRIVATE_KEY=xxxxxxxxxxxx
 ```
-- 사용자 환경변수인 주소, 개인키 값을 전역변수로 설정
+- 사용자 환경변수인 주소/개인키를 전역변수로 설정
 
 ### 1.2. 원인
 - ${환경변수}를 환경변수로 인식하지 못함
